@@ -22,3 +22,6 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/logout', [AuthController::class, 'logout'])->middleware('auth')->name('logout');
 
+Route::get('/checkout', [PembelianController::class, 'checkout'])->name('checkout');
+
+Route::patch('/cart/update/{id}', [PembelianController::class, 'update'])->middleware('auth');

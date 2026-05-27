@@ -20,7 +20,7 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="/login">Login</a>
-                    <a href="/register">Register</a>
+                    <a href="/registe r">Register</a>
                 </div>
             </div>
         </div>
